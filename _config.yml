@@ -6,3 +6,4 @@ plugins:
 
 markdown: kramdown
 highlighter: rouge
+show_downloads: false
