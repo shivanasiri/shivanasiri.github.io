@@ -1,0 +1,22 @@
+---
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+  {% include header.html %}
+
+  <main class="container">
+    <h1>{{ page.title }}{% if page.year %} · {{ page.year }}{% endif %}</h1>
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
