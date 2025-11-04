@@ -1,22 +1,27 @@
 ---
 layout: default
-title: Home
+title: Shiva Nasiri
 ---
 
-<img src="/assets/img/hero.jpg" alt="Hero image" style="width:100%; max-height:600px; object-fit:cover;">
+<div class="hero">
+  <img src="/assets/images/hero.jpg" alt="Shiva Nasiri installation">
+  <p class="tagline">Ceramics & Installation Art</p>
+</div>
 
-# Shiva Nasiri  
-**Ceramics & Installation Art**
+## Selected Works
+<div class="grid">
+  <a class="card" href="/commotion/">
+    <img src="/assets/images/commotion-thumb.jpg" alt="Commotion (2024)">
+    <div class="meta">Commotion (2024)</div>
+  </a>
 
-Exploring time, memory, and intimacy through clay and moving image.
+  <a class="card" href="/work/somepiece/">
+    <img src="/assets/images/placeholder.jpg" alt="Sculptural Work">
+    <div class="meta">Sculptural Work</div>
+  </a>
 
-<br>
-
-## Selected Works  
-→ [Portfolio](/work/)
-→ [Installations](/installations/)
-→ [Video Projects](/video/)
-
-<br>
-
-[About](/about/) · [CV](/cv/) · [Contact](/contact/)
+  <a class="card" href="/work/somepiece2/">
+    <img src="/assets/images/placeholder.jpg" alt="Installations">
+    <div class="meta">Installations</div>
+  </a>
+</div>
