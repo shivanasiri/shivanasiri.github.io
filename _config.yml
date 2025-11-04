@@ -1,0 +1,8 @@
+title: "Shiva Nasiri"
+description: "Ceramics & Installation Art"
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
