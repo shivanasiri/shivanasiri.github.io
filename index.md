@@ -7,6 +7,12 @@ title: Shiva Nasiri
   <img src="/assets/images/hero.jpg" alt="Shiva Nasiri installation">
   <p class="tagline">Ceramics & Installation Art</p>
 </div>
+<section style="max-width:800px;margin:80px auto;text-align:center;color:#444;">
+  <h1 style="font-weight:500;letter-spacing:0.03em;">Shiva Nasiri</h1>
+  <p style="font-size:15px;line-height:1.6;color:#666;">
+    Sculptor and installation artist exploring time, fragility, and care through clay and moving image.
+  </p>
+</section>
 
 ## Selected Works
 <div class="grid">
