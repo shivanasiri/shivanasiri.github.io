@@ -1,9 +1,18 @@
 title: "Shiva Nasiri"
 description: "Ceramics & Installation Art"
-theme: jekyll-theme-minimal
+
+# Use our own layouts/CSS instead of the default theme
+theme: null
+
 plugins:
   - jekyll-seo-tag
 
 markdown: kramdown
 highlighter: rouge
 show_downloads: false
+
+nav:
+  - { label: "Home",    url: "/" }
+  - { label: "Work",    url: "/work/" }
+  - { label: "About",   url: "/about/" }
+  - { label: "Contact", url: "/contact/" }
