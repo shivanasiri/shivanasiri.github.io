@@ -9,7 +9,7 @@ title: Work
 
   <!-- Ziet, Please Hold Still -->
   <a class="work-card" href="{{ '/work/ziet-please-hold-still/' | relative_url }}">
-    <img src="{{ '/assets/images/ziet-3.JPG' | relative_url }}" alt="Ziet, Please Hold Still">
+    <img src="{{ '/assets/images/ziet-1.JPG' | relative_url }}" alt="Ziet, Please Hold Still">
     <div class="work-overlay">
       <div class="work-meta">
         <div class="work-title"><em>Ziet, Please Hold Still</em></div>
@@ -20,7 +20,7 @@ title: Work
 
   <!-- Reverberation of a Silent Latch -->
   <a class="work-card" href="{{ '/work/reverberation-of-a-silent-latch/' | relative_url }}">
-    <img src="{{ '/assets/images/latch-3.jpg' | relative_url }}" alt="Reverberation of a Silent Latch">
+    <img src="{{ '/assets/images/latch-1.jpg' | relative_url }}" alt="Reverberation of a Silent Latch">
     <div class="work-overlay">
       <div class="work-meta">
         <div class="work-title"><em>Reverberation of a Silent Latch</em></div>
