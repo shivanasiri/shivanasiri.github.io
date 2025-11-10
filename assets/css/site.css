@@ -79,31 +79,32 @@ p{margin:0 0 14px;}
 
 .site-footer{border-top:1px solid #eee;color:var(--muted);}
 .muted{color:var(--muted);}
-/* ---------- Hero caption ---------- */
+/* ---------- Hero caption (minimal) ---------- */
 .caption {
   position: absolute;
-  bottom: 30px;
+  bottom: 34px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   color: #f5f5f5;
   font-style: italic;
-  letter-spacing: 0.02em;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 6px 14px;
-  border-radius: 4px;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+  padding: 0;
+  background: none;
+  opacity: 0;
+  animation: captionFade 1.2s ease-out 0.6s forwards;
 }
-/* ---------- Hero caption ---------- */
-.caption {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  font-size: 13px;
-  color: #e5e5e5;
-  font-style: italic;
-  letter-spacing: 0.03em;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+
+@keyframes captionFade {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
 }
+
