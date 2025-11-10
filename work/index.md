@@ -18,3 +18,12 @@ title: Work
   </a>
 
 </div>
+<a class="work-card" href="{{ '/work/reverberation-of-a-silent-latch/' | relative_url }}">
+  <img src="{{ '/assets/images/latch-1.jpg' | relative_url }}" alt="Reverberation of a Silent Latch">
+  <div class="work-overlay">
+    <div class="work-meta">
+      <div class="work-title"><em>Reverberation of a Silent Latch</em></div>
+      <div class="work-info">2023 · Ceramic, wood | Installation</div>
+    </div>
+  </div>
+</a>
