@@ -5,12 +5,18 @@ title: Work
 
 # Work
 
-Here is a selection of my ceramic and sculptural projects.
+<div class="work-grid">
 
-<br>
+  <!-- Example project -->
+  <a class="work-card" href="/work/ziet-please-hold-still/">
+    <img src="{{ '/assets/images/ziet-thumb.jpg' | relative_url }}" alt="Ziet, Please Hold Still">
+    <div class="work-overlay">
+      <div class="work-meta">
+        <div class="work-title"><em>Ziet, Please Hold Still</em></div>
+        <div class="work-info">2022–23 · Clay, wood | Installation</div>
+      </div>
+    </div>
+  </a>
 
-## Collections
-
-- [Ceramic Sculptures](/work/ceramics/)
-- [Installations](/installations/)
-- [Video Projects](/video/)
+  <!-- Add more projects here later -->
+</div>
