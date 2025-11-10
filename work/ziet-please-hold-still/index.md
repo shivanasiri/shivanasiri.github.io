@@ -10,7 +10,9 @@ title: Ziet, Please Hold Still
   <img src="{{ '/assets/images/ziet-1.JPG' | relative_url }}" alt="Installation view of Ziet, Please Hold Still">
   <img src="{{ '/assets/images/ziet-2.JPG' | relative_url }}" alt="Detail of Ziet, Please Hold Still">
   <img src="{{ '/assets/images/ziet-3.JPG' | relative_url }}" alt="Another angle of Ziet, Please Hold Still">
+  <img src="{{ '/assets/images/ziet-4.JPG' | relative_url }}" alt="Fourth view of Ziet, Please Hold Still">
 </div>
+
 
 <p>
   <em>Ziet, Please Hold Still</em> reflects on time, stillness, and the delicate balance between care and decay.
