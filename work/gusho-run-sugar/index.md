@@ -21,3 +21,12 @@ contemplates the sensory pull of the temporary.
 </p>
 
 <p><a href="{{ '/work/' | relative_url }}">← Back to all works</a></p>
+<a class="work-card" href="{{ '/work/gusho-run-sugar/' | relative_url }}">
+  <img src="{{ '/assets/images/sugar-1.jpg' | relative_url }}" alt="Gusho-run, Sugar">
+  <div class="work-overlay">
+    <div class="work-meta">
+      <div class="work-title"><em>Gusho-run, Sugar</em></div>
+      <div class="work-info">2022 · Candy | Installation</div>
+    </div>
+  </div>
+</a>
