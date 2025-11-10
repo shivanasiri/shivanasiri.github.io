@@ -271,7 +271,7 @@ p{margin:0 0 14px;}
 
 .brand-signature {
   display: block;
-  height: 90px;   /* adjust: try 72–96px */
+  height: 100px;   /* adjust: try 72–96px */
   width: auto;
   opacity: 0;
   animation: fadeIn 0.9s ease-out forwards;
