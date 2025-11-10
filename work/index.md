@@ -40,7 +40,6 @@ title: Work
     </div>
   </a>
 
-</div>
 
   <a class="work-card" href="{{ '/work/ash/' | relative_url }}">
     <img src="{{ '/assets/images/ash-1.jpg' | relative_url }}" alt="Ash">
