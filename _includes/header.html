@@ -3,7 +3,7 @@
     <a class="brand" href="/">{{ site.title }}</a>
     <nav class="nav">
       {% for item in site.nav %}
-        <a href="{{ item.url }}">{{ item.label }}</a>
+        <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
       {% endfor %}
     </nav>
   </div>
