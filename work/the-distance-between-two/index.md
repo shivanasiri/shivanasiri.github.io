@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The distance between two
+title: "The distance between two"
 ---
 
 <h1>The distance between two</h1>
