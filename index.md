@@ -4,7 +4,11 @@ title: Shiva Nasiri
 ---
 
 <div class="hero">
-  <img src="{{ '/assets/images/hero.jpg' | relative_url }}" alt="Shiva Nasiri installation">
+  <img src="{{ '/assets/images/hero.jpg' | relative_url }}" alt="Shiva Nasiri, Ziet, Please Hold Still, Clay, Wood, 2022–23">
+  <div class="caption">
+    <em>Ziet, Please Hold Still</em>, 2022–23<br>
+    Clay, wood | Installation
+  </div>
 </div>
 
 <section style="max-width:800px;margin:80px auto 40px;text-align:center;color:#444;">
