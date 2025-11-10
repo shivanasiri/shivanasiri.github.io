@@ -7,7 +7,6 @@ title: Work
 
 <div class="work-grid">
 
-  <!-- Example project -->
   <a class="work-card" href="/work/ziet-please-hold-still/">
     <img src="{{ '/assets/images/ziet-thumb.jpg' | relative_url }}" alt="Ziet, Please Hold Still">
     <div class="work-overlay">
@@ -19,4 +18,5 @@ title: Work
   </a>
 
   <!-- Add more projects here later -->
+
 </div>
