@@ -247,25 +247,40 @@ p{margin:0 0 14px;}
     transform: translateY(0);
   }
 }
-/* --- Signature logo fade-in --- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+  backdrop-filter: saturate(120%) blur(10px);
+  border-bottom: 1px solid #eee;
+}
+
+.site-header .inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 14px var(--gutter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+
 .brand-signature {
-  height: 80px;  /* ← try 80 or 100 for a bigger size */
+  display: block;
+  height: 72px;   /* adjust: try 72–96px */
   width: auto;
   opacity: 0;
-  animation: fadeIn 1.2s ease-out forwards;
-  animation-delay: 0.3s;
-  transform-origin: left center;
+  animation: fadeIn 0.9s ease-out forwards;
+  animation-delay: 0.15s;
 }
 
-}
-
+/* simple fade-in keyframes if not already defined */
 @keyframes fadeIn {
-  from { 
-    opacity: 0; 
-    transform: translateY(6px);  /* slight upward motion */
-  }
-  to { 
-    opacity: 1; 
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
+
