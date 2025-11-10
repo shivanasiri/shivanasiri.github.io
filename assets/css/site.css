@@ -214,3 +214,36 @@ p{margin:0 0 14px;}
   padding: 40px 10%;
   justify-items: center;
 }
+/* Fade-in for work cards on Work page */
+
+.work-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.7s ease forwards;
+}
+
+/* Staggered delays so they come in one by one */
+.work-card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.work-card:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.work-card:nth-child(3) {
+  animation-delay: 0.25s;
+}
+.work-card:nth-child(4) {
+  animation-delay: 0.35s;
+}
+/* add more nth-child rules if you add more projects later */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
