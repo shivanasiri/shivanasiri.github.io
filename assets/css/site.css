@@ -160,3 +160,16 @@ p{margin:0 0 14px;}
 .work-card:hover .work-overlay{
   opacity:1;
 }
+.work-gallery{
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+  margin:32px 0;
+}
+
+.work-gallery img{
+  width:100%;
+  height:auto;
+  display:block;
+  object-fit:cover;
+}
