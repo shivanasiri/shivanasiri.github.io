@@ -173,3 +173,13 @@ p{margin:0 0 14px;}
   display:block;
   object-fit:cover;
 }
+/* === Fix Work Thumbnails === */
+.work-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* shows full image, no cropping */
+  background-color: #f8f8f8; /* subtle background to fill space */
+  border-radius: 4px; /* optional: smooth corners */
+  display: block;
+  margin: 0 auto;
+}
