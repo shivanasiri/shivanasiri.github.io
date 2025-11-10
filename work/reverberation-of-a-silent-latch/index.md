@@ -10,7 +10,7 @@ title: Reverberation of a Silent Latch
   <img src="{{ '/assets/images/latch-1.jpg' | relative_url }}" alt="Installation view of Reverberation of a Silent Latch">
   <img src="{{ '/assets/images/latch-2.jpg' | relative_url }}" alt="Detail of Reverberation of a Silent Latch">
   <img src="{{ '/assets/images/latch-3.jpg' | relative_url }}" alt="Another angle of Reverberation of a Silent Latch">
-    <img src="{{ '/assets/images/latch-4.JPG' | relative_url }}" alt="Another Detail view of Reverberation of a Silent Latch">
+  <img src="{{ '/assets/images/latch-4.jpg' | relative_url }}" alt="Reverberation of a Silent Latch, detail view">
 </div>
 
 <p>
