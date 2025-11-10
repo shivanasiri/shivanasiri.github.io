@@ -7,6 +7,7 @@ title: Work
 
 <div class="work-grid">
 
+  <!-- Ziet, Please Hold Still -->
   <a class="work-card" href="{{ '/work/ziet-please-hold-still/' | relative_url }}">
     <img src="{{ '/assets/images/ziet-1.JPG' | relative_url }}" alt="Ziet, Please Hold Still">
     <div class="work-overlay">
@@ -17,13 +18,16 @@ title: Work
     </div>
   </a>
 
-</div>
-<a class="work-card" href="{{ '/work/reverberation-of-a-silent-latch/' | relative_url }}">
-  <img src="{{ '/assets/images/latch-3.jpg' | relative_url }}" alt="Reverberation of a Silent Latch">
-  <div class="work-overlay">
-    <div class="work-meta">
-      <div class="work-title"><em>Reverberation of a Silent Latch</em></div>
-      <div class="work-info">2023 · Ceramic, wood | Installation</div>
+  <!-- Reverberation of a Silent Latch -->
+  <a class="work-card" href="{{ '/work/reverberation-of-a-silent-latch/' | relative_url }}">
+    <img src="{{ '/assets/images/latch-1.jpg' | relative_url }}" alt="Reverberation of a Silent Latch">
+    <div class="work-overlay">
+      <div class="work-meta">
+        <div class="work-title"><em>Reverberation of a Silent Latch</em></div>
+        <div class="work-info">2023 · Ceramic, wood | Installation</div>
+      </div>
     </div>
-  </div>
-</a>
+  </a>
+
+</div>
+
