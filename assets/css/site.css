@@ -10,12 +10,43 @@ a:hover{border-color:#111;}
 h1,h2,h3{font-weight:700;line-height:1.2;margin:18px 0 6px;}
 p{margin:0 0 14px;}
 
-.site-header{position:sticky;top:0;background:#fffeb;backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid #eee;}
-.site-header .inner,
-.site-footer .inner{max-width:var(--max);margin:0 auto;padding:14px var(--gutter);display:flex;align-items:center;justify-content:space-between;}
-.brand{font-weight:800;letter-spacing:.02em;border:0;}
-.nav a{margin-left:22px;border:0;}
-.nav a:hover{border-bottom:1px solid #000;}
+.site-header{
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  backdrop-filter: saturate(180%) blur(10px);
+  border-bottom: 1px solid #eee;
+  z-index: 50;
+}
+
+.site-header .inner{
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 14px var(--gutter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* name left, nav right */
+}
+
+.brand{
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 0;
+}
+
+.nav a{
+  margin-left: 22px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  border: 0;
+}
+
+.nav a:hover{
+  border-bottom: 1px solid #000;
+}
 
 .container{max-width:var(--max);margin:0 auto;padding:40px var(--gutter) 80px;}
 
