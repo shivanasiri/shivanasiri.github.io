@@ -42,3 +42,12 @@ title: Work
 
 </div>
 
+  <a class="work-card" href="{{ '/work/ash/' | relative_url }}">
+    <img src="{{ '/assets/images/ash-1.jpg' | relative_url }}" alt="Ash">
+    <div class="work-overlay">
+      <div class="work-meta">
+        <div class="work-title"><em>Ash</em></div>
+        <div class="work-info">2019 · Iron, fiberglass, paint | Life-size</div>
+      </div>
+    </div>
+  </a>
