@@ -9,7 +9,7 @@ title: Work
 
   <!-- Ziet, Please Hold Still -->
   <a class="work-card" href="{{ '/work/ziet-please-hold-still/' | relative_url }}">
-    <img src="{{ '/assets/images/ziet-4.JPG' | relative_url }}" alt="Ziet, Please Hold Still">
+    <img src="{{ '/assets/images/ziet-1.JPG' | relative_url }}" alt="Ziet, Please Hold Still">
     <div class="work-overlay">
       <div class="work-meta">
         <div class="work-title"><em>Ziet, Please Hold Still</em></div>
@@ -25,6 +25,17 @@ title: Work
       <div class="work-meta">
         <div class="work-title"><em>Reverberation of a Silent Latch</em></div>
         <div class="work-info">2023 · Ceramic, wood | Installation</div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Gusho-run, Sugar -->
+  <a class="work-card" href="{{ '/work/gusho-run-sugar/' | relative_url }}">
+    <img src="{{ '/assets/images/sugar-1.jpg' | relative_url }}" alt="Gusho-run, Sugar">
+    <div class="work-overlay">
+      <div class="work-meta">
+        <div class="work-title"><em>Gusho-run, Sugar</em></div>
+        <div class="work-info">2022 · Candy | Installation</div>
       </div>
     </div>
   </a>
