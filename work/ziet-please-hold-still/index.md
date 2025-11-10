@@ -8,9 +8,10 @@ title: Ziet, Please Hold Still
 Clay, wood | Installation  
 
 <div class="work-gallery">
-  <img src="{{ '/assets/images/ziet-1.jpg' | relative_url }}" alt="Installation view of Ziet, Please Hold Still">
-  <img src="{{ '/assets/images/ziet-2.jpg' | relative_url }}" alt="Detail of Ziet, Please Hold Still">
-  <img src="{{ '/assets/images/ziet-3.jpg' | relative_url }}" alt="Another angle of Ziet, Please Hold Still">
+  <img src="{{ '/assets/images/ziet-1.JPG' | relative_url }}" alt="Installation view of Ziet, Please Hold Still">
+  <img src="{{ '/assets/images/ziet-2.JPG' | relative_url }}" alt="Detail of Ziet, Please Hold Still">
+  <img src="{{ '/assets/images/ziet-3.JPG' | relative_url }}" alt="Another angle of Ziet, Please Hold Still">
+  <img src="{{ '/assets/images/ziet-5.jpg' | relative_url }}" alt="Ziet, Please Hold Still, installation overview">
 </div>
 
 <p>
@@ -19,4 +20,3 @@ Clay, wood | Installation
 </p>
 
 <a href="/work/" style="display:inline-block;margin-top:40px;font-size:13px;">← Back to all works</a>
-
