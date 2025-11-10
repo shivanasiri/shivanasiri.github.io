@@ -3,16 +3,18 @@ layout: default
 title: Work
 ---
 
-<div class="container">
-  <h1>Work</h1>
+<h1>Work</h1>
 
-  <div class="grid">
-    <a class="card" href="/work/ziet-please-hold-still/">
-      <img src="/assets/images/ziet-1.JPG" alt="Ziet, Please Hold Still installation view">
-      <div class="meta">
-        Ziet, Please Hold Still<br/>
-        2022–23 · Clay, wood | Installation
+<div class="work-grid">
+
+  <a class="work-card" href="{{ '/work/ziet-please-hold-still/' | relative_url }}">
+    <img src="{{ '/assets/images/ziet-1.JPG' | relative_url }}" alt="Ziet, Please Hold Still">
+    <div class="work-overlay">
+      <div class="work-meta">
+        <div class="work-title"><em>Ziet, Please Hold Still</em></div>
+        <div class="work-info">2022–23 · Clay, wood | Installation</div>
       </div>
-    </a>
-  </div>
+    </div>
+  </a>
+
 </div>
