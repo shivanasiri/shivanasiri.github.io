@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gusho-run, Sugar
+title: Gusho-run
 ---
 
 <h1>Gusho-run, Sugar</h1>
