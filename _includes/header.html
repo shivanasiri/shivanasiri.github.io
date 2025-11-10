@@ -1,6 +1,8 @@
 <header class="site-header">
   <div class="inner">
-    <a class="brand" href="/">{{ site.title }}</a>
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/signature.svg' | relative_url }}" alt="Shiva Nasiri" class="brand-signature">
+    </a>
     <nav class="nav">
       {% for item in site.nav %}
         <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
@@ -8,6 +10,3 @@
     </nav>
   </div>
 </header>
-<a class="brand" href="{{ '/' | relative_url }}">
-  <img src="{{ '/assets/images/signature.svg' | relative_url }}" alt="Shiva Nasiri" class="brand-signature">
-</a>
