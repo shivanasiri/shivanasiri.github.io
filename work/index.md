@@ -17,7 +17,6 @@ title: Work
     </div>
   </a>
 
-  <!-- Add more projects here later -->
+  <!-- more projects later -->
 
 </div>
-
