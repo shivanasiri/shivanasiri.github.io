@@ -247,3 +247,22 @@ p{margin:0 0 14px;}
     transform: translateY(0);
   }
 }
+/* --- Signature logo fade-in --- */
+.brand-signature {
+  height: 36px;                /* adjust for size */
+  width: auto;
+  opacity: 0;                  /* start hidden */
+  animation: fadeIn 1.2s ease-out forwards;
+  animation-delay: 0.3s;       /* wait a moment before fading in */
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(6px);  /* slight upward motion */
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0);
+  }
+}
