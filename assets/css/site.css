@@ -249,11 +249,13 @@ p{margin:0 0 14px;}
 }
 /* --- Signature logo fade-in --- */
 .brand-signature {
-  height: 36px;                /* adjust for size */
+  height: 80px;  /* ← try 80 or 100 for a bigger size */
   width: auto;
-  opacity: 0;                  /* start hidden */
+  opacity: 0;
   animation: fadeIn 1.2s ease-out forwards;
-  animation-delay: 0.3s;       /* wait a moment before fading in */
+  animation-delay: 0.3s;
+  transform-origin: left center;
+}
 }
 
 @keyframes fadeIn {
