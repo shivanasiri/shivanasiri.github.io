@@ -58,3 +58,12 @@ title: Work
       </div>
     </div>
   </a>
+  <a class="work-card" href="{{ '/work/the-distance-between-two/' | relative_url }}">
+    <img src="{{ '/assets/images/distance-1.jpg' | relative_url }}" alt="The distance between two">
+    <div class="work-overlay">
+      <div class="work-meta">
+        <div class="work-title"><em>The distance between two</em></div>
+        <div class="work-info">2015 · Fiberglass, iron | 70 × 75 cm</div>
+      </div>
+    </div>
+  </a>
