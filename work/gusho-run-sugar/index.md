@@ -8,6 +8,9 @@ title: Gusho-run, Sugar
 
 <div class="work-gallery">
   <img src="{{ '/assets/images/sugar-1.jpg' | relative_url }}" alt="Installation view of Gusho-run, Sugar">
+  <img src="{{ '/assets/images/sugar-2.jpg' | relative_url }}" alt="Detail of Gusho-run, Sugar">
+  <img src="{{ '/assets/images/sugar-3.jpg' | relative_url }}" alt="Close-up of Gusho-run, Sugar">
+  <img src="{{ '/assets/images/sugar-4.jpg' | relative_url }}" alt="Another angle of Gusho-run, Sugar">
 </div>
 
 <p>
