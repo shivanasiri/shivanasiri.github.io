@@ -14,9 +14,7 @@ title: Reverberation of a Silent Latch
 </div>
 
 <p>
-<em>Reverberation of a Silent Latch</em> explores the boundaries between silence, memory, and containment.
-Ceramic forms and wooden panels compose a constructed space that invites the viewer into a dialogue
-between fragility and strength, the inner and outer worlds of care and restraint.
+<em>Reverberation of a Silent Latch</em> This installation examines the boundaries between public and private space through references to Iranian architectural traditions. Each ceramic latch recalls historic door knockers once gendered to signal who stood at the threshold—male or female—an architectural gesture of modesty and privacy. Here, these forms are reimagined with vivid colors and embedded miniature imagery drawn from both sacred and forbidden iconographies. The work exposes the contradictions between visibility and concealment, morality and desire, revealing what occurs behind closed doors. The “silent latch” becomes a metaphor for spaces where power and intimacy quietly converge.
 </p>
 
 <p><a href="{{ '/work/' | relative_url }}">← Back to all works</a></p>
