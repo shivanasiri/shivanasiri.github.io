@@ -13,9 +13,7 @@ title: "The distance between two"
 
 <p>
   <em>The distance between two</em> (<code>d = √((x₂ - x₁)² + (y₂ - y₁)²)</code>) 
-  explores spatial tension and measurement as a metaphor for emotional and physical separation. 
-  The interplay of fiberglass and iron evokes both fragility and permanence, 
-  blurring the boundaries between scientific abstraction and human connection.
+  This sculpture contemplates the spaces that exist between individuals and within the self. Referencing the mathematical formula for distance, the work transforms a measure of physical separation into a reflection on emotional and existential disconnection. The human form appears as a shell—present yet unreachable—suggesting that we reveal only fragments of ourselves to one another. The Distance Between Two questions the limits of understanding and intimacy, asking whether true connection is ever possible when even the self remains partly unknown.
 </p>
 
 <p><a href="{{ '/work/' | relative_url }}">← Back to all works</a></p>
