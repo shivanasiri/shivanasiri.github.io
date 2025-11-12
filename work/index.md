@@ -67,3 +67,14 @@ title: Work
       </div>
     </div>
   </a>
+
+<!-- My Reflection (Me) -->
+<a class="work-card" href="{{ '/work/my-reflection-me/' | relative_url }}">
+  <img src="{{ '/assets/images/reflection-thumb.jpg' | relative_url }}" alt="My Reflection (Me)">
+  <div class="work-overlay">
+    <div class="work-meta">
+      <div class="work-title"><em>My Reflection (Me)</em></div>
+      <div class="work-info">2019 · Fiberglass, resin · Installation</div>
+    </div>
+  </div>
+</a>
