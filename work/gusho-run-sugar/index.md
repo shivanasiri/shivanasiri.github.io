@@ -14,10 +14,7 @@ title: Gusho-run
 </div>
 
 <p>
-  <em>Gusho-run, Sugar</em> examines the tension between sweetness and decay.
-  Ephemeral candy structures dissolve over time, reflecting the fragility of indulgence
-  and the slow erosion of material pleasure. Through this installation, the work
-  contemplates the sensory pull of the temporary.
+  <em>Gusho-run, Sugar</em> This installation transforms the image of the fruit fly into an enlarged, candy-like form. Using 3D printing and mold casting, each fly is rendered in translucent, edible material—bright, alluring, and unsettling. Scattered across the surface like fallen insects, the forms evoke the quiet aftermath of contamination and decay. Influenced by Rachel Carson’s Silent Spring, the work reflects on ecological fragility and the seductive surfaces of consumer culture. The title references Gusho-run, an ancient guardian spirit of animals, situating the piece between myth and environmental crisis, sweetness and mortality.
 </p>
 
 <p><a href="{{ '/work/' | relative_url }}">← Back to all works</a></p>
