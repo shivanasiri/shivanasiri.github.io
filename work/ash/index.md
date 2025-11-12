@@ -3,13 +3,19 @@ layout: default
 title: Ash
 ---
 
-<h1>Ash</h1>
-<p>2019 &middot; Iron, fiberglass, paint &middot; Life-size sculpture</p>
+<div class="gallery">
 
-  <img id="main-image" class="main-image" src="{{ '/assets/images/ash-1.jpg' | relative_url }}" alt="Ash">
-  <img src="{{ '/assets/images/ash-1.jpg' | relative_url }}" onclick="changeImage(this)">
-  <img src="{{ '/assets/images/ash-2.jpg' | relative_url }}" onclick="changeImage(this)">
-  <img src="{{ '/assets/images/ash-3.jpg' | relative_url }}" onclick="changeImage(this)"">
+  <img id="main-image" class="main-image"
+       src="{{ '/assets/images/ash-1.jpg' | relative_url }}"
+       alt="Ash">
+
+  <div class="thumbnails">
+    <img src="{{ '/assets/images/ash-1.jpg' | relative_url }}" onclick="changeImage(this)">
+    <img src="{{ '/assets/images/ash-2.jpg' | relative_url }}" onclick="changeImage(this)">
+    <img src="{{ '/assets/images/ash-3.jpg' | relative_url }}" onclick="changeImage(this)">
+    <img src="{{ '/assets/images/ash-4.jpg' | relative_url }}" onclick="changeImage(this)">
+  </div>
+
 </div>
 
 <p>
