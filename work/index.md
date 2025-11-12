@@ -78,3 +78,13 @@ title: Work
     </div>
   </div>
 </a>
+<!-- The Quiet After -->
+<a class="work-card" href="{{ '/work/the-quiet-after/' | relative_url }}">
+  <img src="{{ '/assets/images/quiet-after-2.jpg' | relative_url }}" alt="The Quiet After">
+  <div class="work-overlay">
+    <div class="work-meta">
+      <div class="work-title"><em>The Quiet After</em></div>
+      <div class="work-info">2020 · Fiberglass, mixed media, found objects</div>
+    </div>
+  </div>
+</a>
