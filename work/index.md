@@ -98,3 +98,13 @@ title: Work
     </div>
   </div>
 </a>
+<!-- Industrial Heritage -->
+<a class="work-card" href="{{ '/work/industrial-heritage/' | relative_url }}">
+  <img src="{{ '/assets/images/industrial-thumb.jpg' | relative_url }}" alt="Industrial Heritage">
+  <div class="work-overlay">
+    <div class="work-meta">
+      <div class="work-title"><em>Industrial Heritage</em></div>
+      <div class="work-info">2020 · Resin, epoxy, iron</div>
+    </div>
+  </div>
+</a>
