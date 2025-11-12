@@ -88,3 +88,13 @@ title: Work
     </div>
   </div>
 </a>
+<!-- Pomegranate Blossoms -->
+<a class="work-card" href="{{ '/work/pomegranate-blossoms/' | relative_url }}">
+  <img src="{{ '/assets/images/pomegranate-1.jpg' | relative_url }}" alt="Pomegranate Blossoms">
+  <div class="work-overlay">
+    <div class="work-meta">
+      <div class="work-title"><em>Pomegranate Blossoms</em></div>
+      <div class="work-info">2020 · Iron, aluminum, wool yarn, papier-mâché</div>
+    </div>
+  </div>
+</a>
