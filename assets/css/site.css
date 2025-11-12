@@ -308,3 +308,19 @@ p{margin:0 0 14px;}
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+.work-gallery {
+  display: grid;
+  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin-top: 30px;
+}
+
+.work-gallery img {
+  width: 100%;
+  height: 360px;       /* adjust: 320–420px depending on style */
+  object-fit: cover;   /* fills nicely without distortion */
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
