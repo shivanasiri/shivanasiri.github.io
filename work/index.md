@@ -70,7 +70,7 @@ title: Work
 
 <!-- My Reflection (Me) -->
 <a class="work-card" href="{{ '/work/my-reflection-me/' | relative_url }}">
-  <img src="{{ '/assets/images/reflection-thumb.jpg' | relative_url }}" alt="My Reflection (Me)">
+  <img src="{{ '/assets/images/reflection-1.jpg' | relative_url }}" alt="My Reflection (Me)">
   <div class="work-overlay">
     <div class="work-meta">
       <div class="work-title"><em>My Reflection (Me)</em></div>
