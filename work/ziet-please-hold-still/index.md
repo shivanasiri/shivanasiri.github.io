@@ -15,8 +15,7 @@ title: Ziet, Please Hold Still
 
 
 <p>
-  <em>Ziet, Please Hold Still</em> reflects on time, stillness, and the delicate balance between care and decay.
-  Clay vessels and wooden forms interact with gravity and impermanence, mirroring the quiet endurance of material and human fragility.
+  <em>Ziet, Please Hold Still</em> This installation reflects on distance, belonging, and the weight of time. Referencing traditional Iranian architectural forms, each clay structure stands on wooden islands shaped from the topographies of Iranian cities. The work evokes a quiet tension between permanence and loss—forms anchored yet isolated, suspended in a moment that resists passing. The projected house blueprint extends this meditation on memory, territory, and the fragile construction of home.
 </p>
 
 <p><a href="{{ '/work/' | relative_url }}">← Back to all works</a></p>
