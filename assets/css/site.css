@@ -324,3 +324,34 @@ p{margin:0 0 14px;}
   opacity: 0;
   animation: fadeIn 0.8s ease-out forwards;
 }
+.gallery {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;      /* preserves full artwork */
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.thumbnails {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.thumbnails img {
+  height: 80px;      /* small, neat thumbnails */
+  width: auto;       /* NO cropping */
+  cursor: pointer;
+  opacity: 0.7;
+  border-radius: 3px;
+}
+
+.thumbnails img:hover {
+  opacity: 1;
+}
