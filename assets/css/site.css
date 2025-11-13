@@ -450,3 +450,23 @@ p{margin:0 0 14px;}
 .viewer-nav:hover {
   color: #000;
 }
+.image-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.nav-arrow {
+  background: none;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  color: #444;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.nav-arrow:hover {
+  color: black;
+  transform: scale(1.15);
+}
