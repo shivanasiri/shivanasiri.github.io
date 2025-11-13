@@ -28,3 +28,29 @@ title: Ash
 </p>
 
 <p><a href="{{ '/work/' | relative_url }}">← Back to all works</a></p>
+<script>
+let images = [
+  "{{ '/assets/images/ash-1.jpg' | relative_url }}",
+  "{{ '/assets/images/ash-2.jpg' | relative_url }}",
+  "{{ '/assets/images/ash-3.jpg' | relative_url }}",
+  "{{ '/assets/images/ash-4.jpg' | relative_url }}"
+];
+
+let currentIndex = 0;
+let mainImage = document.getElementById('main-image');
+
+function changeImage(img) {
+  mainImage.src = img.src;
+  currentIndex = images.indexOf(img.src.replace(window.location.origin, ""));
+}
+
+function nextImage() {
+  currentIndex = (currentIndex + 1) % images.length;
+  mainImage.src = images[currentIndex];
+}
+
+function prevImage() {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  mainImage.src = images[currentIndex];
+}
+</script>
