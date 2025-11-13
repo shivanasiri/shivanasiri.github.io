@@ -8,6 +8,11 @@ title: Ash
   <img id="main-image" class="main-image"
        src="{{ '/assets/images/ash-1.jpg' | relative_url }}"
        alt="Ash">
+<!-- Image navigation arrows -->
+<div class="image-nav">
+    <button class="nav-arrow left-arrow" onclick="prevImage()">&#10094;</button>
+    <button class="nav-arrow right-arrow" onclick="nextImage()">&#10095;</button>
+</div>
 
   <div class="thumbnails">
     <img src="{{ '/assets/images/ash-1.jpg' | relative_url }}" onclick="changeImage(this)">
