@@ -18,7 +18,6 @@ title: Ash
     <img src="{{ '/assets/images/ash-1.jpg' | relative_url }}" onclick="changeImage(this)">
     <img src="{{ '/assets/images/ash-2.jpg' | relative_url }}" onclick="changeImage(this)">
     <img src="{{ '/assets/images/ash-3.jpg' | relative_url }}" onclick="changeImage(this)">
-    <img src="{{ '/assets/images/ash-4.jpg' | relative_url }}" onclick="changeImage(this)">
   </div>
 
 </div>
