@@ -6,10 +6,17 @@ title: "The distance between two"
 <h1>The distance between two</h1>
 <p>2015 · Fiberglass, iron · 70 × 75 cm</p>
 
-<div class="work-gallery">
-  <img src="{{ '/assets/images/distance-1.jpg' | relative_url }}" alt="The distance between two, view 1">
-  <img src="{{ '/assets/images/distance-2.jpg' | relative_url }}" alt="The distance between two, view 2">
-</div>
+<div class="gallery">
+
+  <div class="main-image-wrapper">
+    <button class="gallery-nav prev" onclick="prevImage()">&#10094;</button>
+
+    <img id="main-image" class="main-image"
+         src="{{ '/assets/images/distance-1.jpg' | relative_url }}"
+         alt="The distance between two">
+
+    <button class="gallery-nav next" onclick="nextImage()">&#10095;</button>
+  </div>
 
 <p>
   <em>The distance between two</em> (<code>d = √((x₂ - x₁)² + (y₂ - y₁)²)</code>) 
