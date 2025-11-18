@@ -22,7 +22,7 @@ title: Mass
     <img src="{{ '/assets/images/mass-2.jpg' | relative_url }}" onclick="changeImage(this)">
     <!-- add/remove depending on how many mass images you uploaded -->
   </div>
-    <button class="gallery-nav next" onclick="nextImage()">&#10095;</button>
+  
   </div>
 
 
