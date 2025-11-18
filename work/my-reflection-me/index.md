@@ -6,14 +6,17 @@ title: My Reflection (Me)
 <h1>My Reflection (Me)</h1>
 <p>2019 · Fiberglass, resin · Installation</p>
 
-<div class="work-gallery">
-  <img src="{{ '/assets/images/reflection-1.jpg' | relative_url }}" alt="My Reflection (Me) - image 1">
-  <img src="{{ '/assets/images/reflection-2.jpg' | relative_url }}" alt="My Reflection (Me) - image 2">
-  <img src="{{ '/assets/images/reflection-3.jpg' | relative_url }}" alt="My Reflection (Me) - image 3">
-  <img src="{{ '/assets/images/reflection-4.jpg' | relative_url }}" alt="My Reflection (Me) - image 4">
-  <img src="{{ '/assets/images/reflection-5.jpg' | relative_url }}" alt="My Reflection (Me) - image 5">
-  <img src="{{ '/assets/images/reflection-6.jpg' | relative_url }}" alt="My Reflection (Me) - image 6">
-</div>
+<div class="gallery">
+
+  <div class="main-image-wrapper">
+    <button class="gallery-nav prev" onclick="prevImage()">&#10094;</button>
+
+    <img id="main-image" class="main-image"
+         src="{{ '/assets/images/my-reflection-me-1.jpg' | relative_url }}"
+         alt="My Reflection (Me)">
+
+    <button class="gallery-nav next" onclick="nextImage()">&#10095;</button>
+  </div>
 
 <p><em>My Reflection (Me)</em> is created in memory of the students injured in the 2012 Shin Abad school fire in Iran. 
 Suspended fiberglass faces hover above the ground, while molten, burn-like forms spread across the floor—echoing both physical trauma 
