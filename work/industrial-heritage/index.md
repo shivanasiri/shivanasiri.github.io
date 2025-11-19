@@ -11,7 +11,7 @@ title: Industrial Heritage
     <button class="gallery-nav prev" onclick="prevImage()">&#10094;</button>
 
     <img id="main-image" class="main-image"
-         src="{{ '/assets/images/SLUG-1.jpg' | relative_url }}"
+         src="{{ '/assets/images/industrial-1.jpg' | relative_url }}"
          alt="Industrial Heritage">
 
     <button class="gallery-nav next" onclick="nextImage()">&#10095;</button>
