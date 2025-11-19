@@ -534,3 +534,82 @@ p{margin:0 0 14px;}
 .thumbnails img.active {
   outline: 2px solid #333;
 }
+/* ---------- Single work page gallery ---------- */
+
+.gallery {
+  max-width: 900px;        /* keeps everything in a nice column */
+  margin: 40px auto;
+}
+
+.main-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-height: 60vh;        /* keep gallery from getting too tall */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.main-image {
+  max-width: 100%;
+  max-height: 60vh;        /* same height limit as wrapper */
+  height: auto;
+  object-fit: contain;     /* no cropping – whole artwork fits */
+}
+
+/* arrows */
+
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.gallery-nav.prev {
+  left: 10px;
+}
+
+.gallery-nav.next {
+  right: 10px;
+}
+
+/* thumbnails row */
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.thumbnails img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;   /* crops them into neat little squares */
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.thumbnails img:hover {
+  opacity: 1;
+}
+
+/* mobile tweak */
+
+@media (max-width: 768px) {
+  .main-image-wrapper {
+    max-height: 50vh;
+  }
+  .thumbnails img {
+    width: 60px;
+    height: 60px;
+  }
+}
