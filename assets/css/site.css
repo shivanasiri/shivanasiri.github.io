@@ -779,3 +779,102 @@ p{margin:0 0 14px;}
   max-width: 600px;
   margin: 40px auto;
 }
+/* ---------- Work page grid thumbnails stay as they are ----------
+   (you already have .work-gallery styles above; we don't touch them)
+   The lightbox below only affects the popup view
+----------------------------------------------------------------- */
+
+/* Overlay that covers the page */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65); /* grey/black fade */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+}
+
+/* When visible */
+.lightbox-overlay.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Box that holds big image + caption */
+.lightbox-content {
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Big image – full artwork, no cropping */
+.lightbox-image {
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  background: #111;
+}
+
+/* Caption under big image */
+.lightbox-caption {
+  margin-top: 12px;
+  color: #f5f5f5;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Close “x” */
+.lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  background: none;
+  border: none;
+  color: #f5f5f5;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+/* Left/right arrows inside overlay */
+.lightbox-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #f5f5f5;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.lightbox-arrow.left {
+  left: 40px;
+}
+
+.lightbox-arrow.right {
+  right: 40px;
+}
+
+.lightbox-arrow:hover,
+.lightbox-close:hover {
+  color: #ffffff;
+}
+
+/* Small tweak for mobile: bring arrows closer in */
+@media (max-width: 768px) {
+  .lightbox-arrow.left {
+    left: 12px;
+  }
+  .lightbox-arrow.right {
+    right: 12px;
+  }
+}
