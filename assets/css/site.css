@@ -762,11 +762,11 @@ p{margin:0 0 14px;}
 }
 
 .gallery-nav.prev {
-  left: -5px;   /* adjust left arrow position */
+  left: -4px;   /* adjust left arrow position */
 }
 
 .gallery-nav.next {
-  right: -5px;  /* adjust right arrow position */
+  right: -4px;  /* adjust right arrow position */
 }
 
 .gallery-nav:hover {
