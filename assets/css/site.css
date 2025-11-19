@@ -878,3 +878,8 @@ p{margin:0 0 14px;}
     right: 12px;
   }
 }
+.work-gallery {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
