@@ -34,7 +34,6 @@ let images = [
   "{{ '/assets/images/ash-1.jpg' | relative_url }}",
   "{{ '/assets/images/ash-2.jpg' | relative_url }}",
   "{{ '/assets/images/ash-3.jpg' | relative_url }}",
-  "{{ '/assets/images/ash-4.jpg' | relative_url }}"
 ];
 
 let currentIndex = 0;
