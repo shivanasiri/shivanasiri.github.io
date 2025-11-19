@@ -20,7 +20,6 @@ title: "The distance between two"
  <div class="thumbnails">
     <img src="{{ '/assets/images/distance-1.jpg' | relative_url }}" onclick="changeImage(this)">
     <img src="{{ '/assets/images/distance-2.jpg' | relative_url }}" onclick="changeImage(this)">
-    <img src="{{ '/assets/images/distance-3.jpg' | relative_url }}" onclick="changeImage(this)">
   </div>
 <p>
   <em>The distance between two</em> (<code>d = √((x₂ - x₁)² + (y₂ - y₁)²)</code>) 
