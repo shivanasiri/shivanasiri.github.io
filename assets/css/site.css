@@ -700,8 +700,8 @@ p{margin:0 0 14px;}
   padding: 8px;
 }
 
-.gallery-nav.prev { left: -40px; }
-.gallery-nav.next { right: -40px; }
+.gallery-nav.prev { left: 10px; }
+.gallery-nav.next { right: 10px; }
 
 /* --- THUMBNAILS --- */
 .thumbnails {
