@@ -883,3 +883,57 @@ p{margin:0 0 14px;}
   gap: 18px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
+/* --- Refined airy grid for work pages --- */
+
+.work-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;                 /* a bit more breathing room */
+  margin: 40px auto 50px;
+}
+
+/* subtle entrance animation */
+@keyframes thumbFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.work-gallery img {
+  width: 100%;
+  height: 320px;             /* slightly shorter for a lighter feel */
+  object-fit: cover;
+  border-radius: 8px;        /* softer corners */
+  cursor: zoom-in;
+  animation: thumbFadeIn 0.45s ease-out both;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    opacity 0.2s ease;
+}
+
+/* hover = subtle, not gimmicky */
+.work-gallery img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.10);
+  opacity: 0.95;
+}
+
+/* mobile tweak: full width, a bit taller */
+@media (max-width: 768px) {
+  .work-gallery {
+    gap: 16px;
+    margin: 24px auto 40px;
+  }
+
+  .work-gallery img {
+    height: 260px;
+    border-radius: 6px;
+  }
+}
