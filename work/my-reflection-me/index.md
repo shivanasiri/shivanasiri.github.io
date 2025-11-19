@@ -12,19 +12,19 @@ title: My Reflection (Me)
     <button class="gallery-nav prev" onclick="prevImage()">&#10094;</button>
 
     <img id="main-image" class="main-image"
-         src="{{ '/assets/images/my-reflection-me-1.jpg' | relative_url }}"
+         src="{{ '/assets/images/reflection-1.jpg' | relative_url }}"
          alt="My Reflection (Me)">
 
     <button class="gallery-nav next" onclick="nextImage()">&#10095;</button>
   </div>
 
   <div class="thumbnails">
-    <img src="{{ '/assets/images/my-reflection-me-1.jpg' | relative_url }}" onclick="changeImage(this)">
-    <img src="{{ '/assets/images/my-reflection-me-2.jpg' | relative_url }}" onclick="changeImage(this)">
-    <img src="{{ '/assets/images/my-reflection-me-3.jpg' | relative_url }}" onclick="changeImage(this)">
-    <img src="{{ '/assets/images/my-reflection-me-4.jpg' | relative_url }}" onclick="changeImage(this)">
-    <img src="{{ '/assets/images/my-reflection-me-5.jpg' | relative_url }}" onclick="changeImage(this)">
-    <img src="{{ '/assets/images/my-reflection-me-6.jpg' | relative_url }}" onclick="changeImage(this)">
+    <img src="{{ '/assets/images/reflection-1.jpg' | relative_url }}" onclick="changeImage(this)">
+    <img src="{{ '/assets/images/reflection-2.jpg' | relative_url }}" onclick="changeImage(this)">
+    <img src="{{ '/assets/images/reflection-3.jpg' | relative_url }}" onclick="changeImage(this)">
+    <img src="{{ '/assets/images/reflection-4.jpg' | relative_url }}" onclick="changeImage(this)">
+    <img src="{{ '/assets/images/reflection-5.jpg' | relative_url }}" onclick="changeImage(this)">
+    <img src="{{ '/assets/images/reflection-6.jpg' | relative_url }}" onclick="changeImage(this)">
   </div>
 
 </div>
