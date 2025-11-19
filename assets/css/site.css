@@ -748,3 +748,34 @@ p{margin:0 0 14px;}
     height: 70px;
   }
 }
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: black;      /* arrow color */
+  font-size: 32px;   /* arrow size */
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.gallery-nav.prev {
+  left: -20px;   /* adjust left arrow position */
+}
+
+.gallery-nav.next {
+  right: -20px;  /* adjust right arrow position */
+}
+
+.gallery-nav:hover {
+  color: #555;   /* slight hover change */
+}
+
+.main-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+}
