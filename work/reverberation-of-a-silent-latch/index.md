@@ -6,11 +6,22 @@ title: Reverberation of a Silent Latch
 <h1>Reverberation of a Silent Latch</h1>
 <p>2023 · Ceramic, wood | Installation</p>
 
-<div class="work-gallery">
-  <img src="{{ '/assets/images/latch-1.jpg' | relative_url }}" alt="Installation view of Reverberation of a Silent Latch">
-  <img src="{{ '/assets/images/latch-2.jpg' | relative_url }}" alt="Detail of Reverberation of a Silent Latch">
-  <img src="{{ '/assets/images/latch-3.jpg' | relative_url }}" alt="Another angle of Reverberation of a Silent Latch">
-  <img src="{{ '/assets/images/latch-4.jpg' | relative_url }}" alt="Reverberation of a Silent Latch, detail view">
+<div class="gallery">
+  <div class="main-image-wrapper">
+    <button class="gallery-nav prev" onclick="prevImage()">&#10094;</button>
+
+    <img id="main-image" class="main-image"
+         src="{{ '/assets/images/latch-1.jpg' | relative_url }}" 
+         alt="Reverberation of a Silent Latch">
+
+    <button class="gallery-nav next" onclick="nextImage()">&#10095;</button>
+  </div>
+
+  <div class="thumbnails">
+  <img src="{{ '/assets/images/latch-1.jpg' | relative_url }}" onclick="changeImage(this)">
+  <img src="{{ '/assets/images/latch-2.jpg' | relative_url }}" onclick="changeImage(this)">
+  <img src="{{ '/assets/images/latch-3.jpg' | relative_url }}" onclick="changeImage(this)">
+  <img src="{{ '/assets/images/latch-4.jpg' | relative_url }}" onclick="changeImage(this)">
 </div>
 
 <p>
