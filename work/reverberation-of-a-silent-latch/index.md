@@ -22,6 +22,10 @@ title: Reverberation of a Silent Latch
   <img src="{{ '/assets/images/latch-2.jpg' | relative_url }}" onclick="changeImage(this)">
   <img src="{{ '/assets/images/latch-3.jpg' | relative_url }}" onclick="changeImage(this)">
   <img src="{{ '/assets/images/latch-4.jpg' | relative_url }}" onclick="changeImage(this)">
+  <img src="{{ '/assets/images/latch-5.jpg' | relative_url }}" onclick="changeImage(this)">
+  <img src="{{ '/assets/images/latch-6.jpg' | relative_url }}" onclick="changeImage(this)">
+  <img src="{{ '/assets/images/latch-7.jpg' | relative_url }}" onclick="changeImage(this)">
+  <img src="{{ '/assets/images/latch-8.jpg' | relative_url }}" onclick="changeImage(this)">
 </div>
 
 <p>
