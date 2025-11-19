@@ -12,7 +12,7 @@ title: The Quiet After
     <button class="gallery-nav prev" onclick="prevImage()">&#10094;</button>
 
     <img id="main-image" class="main-image"
-         src="{{ '/assets/images/the-quiet-after-1.jpg' | relative_url }}"
+         src="{{ '/assets/images/quiet-after-1.jpg' | relative_url }}"
          alt="The Quiet After">
 
     <button class="gallery-nav next" onclick="nextImage()">&#10095;</button>
