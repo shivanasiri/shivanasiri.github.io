@@ -12,6 +12,20 @@ title: Ziet, Please Hold Still
   <img src="{{ '/assets/images/ziet-3.JPG' | relative_url }}" alt="Another angle of Ziet, Please Hold Still">
   <img src="{{ '/assets/images/ziet-4.JPG' | relative_url }}" alt="Fourth view of Ziet, Please Hold Still">
 </div>
+<div id="lightbox" class="lightbox-overlay">
+  <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+
+  <button class="lightbox-arrow left" onclick="prevLightboxImage()">&#10094;</button>
+
+  <div class="lightbox-content">
+    <img id="lightbox-image" class="lightbox-image" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption">
+      <!-- caption is filled by JS -->
+    </div>
+  </div>
+
+  <button class="lightbox-arrow right" onclick="nextLightboxImage()">&#10095;</button>
+</div>
 
 
 <p>
