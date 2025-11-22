@@ -1069,3 +1069,30 @@ p{margin:0 0 14px;}
   color: #777;
   margin-top: 0.25rem;
 }
+/* CONTACT PAGE ONLY */
+.page-contact .container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.page-contact h1 {
+  margin-bottom: 20px;
+}
+
+.page-contact p {
+  margin-bottom: 8px;
+}
+
+.page-contact .email {
+  font-size: 1.1rem;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.page-contact .location {
+  margin-top: 6px;
+  opacity: 0.6;
+  font-size: 0.95rem;
+}
