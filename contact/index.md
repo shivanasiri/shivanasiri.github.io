@@ -11,11 +11,10 @@ title: Contact
     </div>
 
     <div class="contact-text">
-      <h1>Contact</h1>
+      <h1>Get in touch</h1>
       <p>
-        I welcome enquiries about exhibitions, collaborations, commissions, writing,
-        or teaching.
-      </p>
+        For inquiries regarding exhibitions, collaborations, commissions, teaching, or studio visits, please reach out by email.
+</p>
       <p class="contact-email">
         <a href="mailto:shiva.nasiri76@gmail.com">shiva.nasiri76@gmail.com</a>
       </p>
