@@ -1165,3 +1165,24 @@ p{margin:0 0 14px;}
     max-width: 100%;
   }
 }
+/* Official SVG icon styling */
+.icon-svg {
+  width: 20px;
+  height: 20px;
+  fill: #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact-icons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-icons a:hover .icon-svg {
+  fill: #000;
+}
