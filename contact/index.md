@@ -12,7 +12,7 @@ title: Contact
 
   <!-- Right: text -->
   <div class="contact-info">
-    <h1>Contact</h1>
+    <h1>Get in touch</h1>
 
     <p class="contact-text">
       For inquiries regarding exhibitions, collaborations, commissions, teaching, or studio visits,
