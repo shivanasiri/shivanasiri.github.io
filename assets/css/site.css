@@ -1069,30 +1069,54 @@ p{margin:0 0 14px;}
   color: #777;
   margin-top: 0.25rem;
 }
-/* CONTACT PAGE ONLY */
-.page-contact .container {
-  max-width: 700px;
-  margin: 0 auto;
+
+/* ---------- Contact Page ---------- */
+
+.page-contact .contact-container {
+  max-width: 650px;
+  margin: 120px auto 140px;
   text-align: center;
-  padding-top: 80px;
 }
 
-.page-contact h1 {
-  margin-bottom: 20px;
+.page-contact .contact-container h1 {
+  font-size: 2.1rem;
+  margin-bottom: 24px;
 }
 
-.page-contact p {
-  margin-bottom: 8px;
+.page-contact .contact-intro {
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #4a4a4a;
+  margin-bottom: 36px;
 }
 
-.page-contact .email {
-  font-size: 1.1rem;
-  margin-top: 25px;
-  margin-bottom: 0px;
+.page-contact .contact-email a {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 2px;
 }
 
-.page-contact .location {
-  margin-top: 6px;
-  opacity: 0.6;
-  font-size: 0.95rem;
+.page-contact .contact-email a:hover {
+  border-bottom-color: #000;
 }
+
+.page-contact .contact-location {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 12px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+  .page-contact .contact-container {
+    margin: 80px 20px 120px;
+  }
+
+  .page-contact .contact-intro {
+    font-size: 0.95rem;
+  }
+}
+
