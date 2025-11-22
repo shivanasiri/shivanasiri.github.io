@@ -937,3 +937,39 @@ p{margin:0 0 14px;}
     border-radius: 6px;
   }
 }
+/* ------------------------------
+   Contact Page
+--------------------------------*/
+
+.contact-intro {
+  max-width: 550px;
+  margin: 20px auto 30px;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #333;
+}
+
+.contact-email {
+  text-align: center;
+  margin: 10px 0 10px;
+}
+
+.contact-email a {
+  font-size: 1.15rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+}
+
+.contact-email a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.contact-location {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 6px;
+}
