@@ -1028,3 +1028,44 @@ p{margin:0 0 14px;}
     text-align: left;
   }
 }
+/* ---------- Contact page ---------- */
+
+.contact-page {
+  max-width: 720px;
+  margin: 120px auto 160px; /* pushes it down from the header a bit */
+  text-align: center;
+}
+
+.contact-page h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-intro {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.contact-email {
+  display: inline-block;
+  font-size: 1.02rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.contact-email:hover {
+  border-bottom-color: #000;
+}
+
+.contact-location {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 0.25rem;
+}
