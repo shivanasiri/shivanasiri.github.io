@@ -1,33 +1,49 @@
 ---
 layout: default
 title: Contact
-class: page-contact
 ---
 
-<div class="contact-ellen">
+<div class="contact-page">
 
-  <img class="contact-ellen-photo"
-       src="{{ '/assets/images/profile.jpg' | relative_url }}"
-       alt="Shiva Nasiri portrait">
+  <div class="contact-hero">
+    <div class="contact-image">
+      <img src="{{ '/assets/images/shiva-portrait.jpg' | relative_url }}" alt="Shiva Nasiri">
+    </div>
 
-  <h1>Contact</h1>
-
-  <p class="contact-ellen-line">
-    For exhibition, project, or teaching inquiries, please reach out.
-  </p>
-
-  <p class="contact-ellen-email">
-    <a href="mailto:shiva.nasiri76@gmail.com">shiva.nasiri76@gmail.com</a>
-  </p>
-
-  <p class="contact-ellen-location">
-    Based in Ottawa, Canada
-  </p>
-
-  <div class="contact-ellen-social">
-    <a href="https://www.instagram.com/shiviid/?hl=en" target="_blank">Instagram</a>
-    <a href="https://ca.linkedin.com/in/shiva-nasiri-311813ab?trk=people-guest_people_search-card" target="_blank">LinkedIn</a>
-    <a href="https://loamclaystudio.ca/products/shiva-nasiri" target="_blank">Loam Studio</a>
+    <div class="contact-text">
+      <h1>Contact</h1>
+      <p>
+        I welcome enquiries about exhibitions, collaborations, commissions, writing,
+        or teaching.
+      </p>
+      <p class="contact-email">
+        <a href="mailto:shiva.nasiri76@gmail.com">shiva.nasiri76@gmail.com</a>
+      </p>
+      <p class="contact-location">Based in Ottawa, Canada</p>
+    </div>
   </div>
 
+  <section class="contact-links">
+    <div class="contact-links-inner">
+      <h2>Elsewhere</h2>
+      <div class="contact-icons">
+        <a href="https://www.instagram.com/shiviid/?hl=en" target="_blank" rel="noopener">
+          <span class="icon">📷</span>
+          <span>Instagram</span>
+        </a>
+        <a href="https://ca.linkedin.com/in/shiva-nasiri-311813ab?trk=people-guest_people_search-card"
+           target="_blank" rel="noopener">
+          <span class="icon">💼</span>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://loamclaystudio.ca/products/shiva-nasiri"
+           target="_blank" rel="noopener">
+          <span class="icon">🏺</span>
+          <span>Loam Clay Studio</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
 </div>
+
