@@ -3,13 +3,22 @@ layout: default
 title: Contact
 ---
 
-# Contact
+<div class="contact-page">
 
-For inquiries, commissions, and collaborations:
+  <h1>Contact</h1>
 
-📧 Email: [your-email@example.com](mailto:your-email@example.com)  
-📷 Instagram: [@yourinstagram](https://instagram.com/yourinstagram)
+  <div class="contact-intro">
+    <p>
+      For enquiries about exhibitions, collaborations, commissions, teaching, or studio visits,
+      please reach out by email.
+    </p>
+  </div>
 
-<br>
+  <div class="contact-details">
+    <p class="contact-email">
+      <a href="mailto:shiva.nasiri76@gmail.com">shiva.nasiri76@gmail.com</a>
+    </p>
+    <p class="contact-location">Based in Ottawa, Canada</p>
+  </div>
 
-Ottawa, Canada
+</div>
