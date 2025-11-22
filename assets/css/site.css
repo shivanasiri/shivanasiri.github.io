@@ -1,3 +1,16 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #111;
+}
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+p, li {
+  font-weight: 300;
+}
+
 :root{
   --text:#111; --muted:#666; --bg:#fff; --max:1200px;
   --gap:28px; --gutter:36px;
