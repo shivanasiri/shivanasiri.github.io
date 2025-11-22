@@ -1,7 +1,10 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
+class: page-contact
 ---
+
 
 <section class="contact-page">
   <h1>Contact</h1>
