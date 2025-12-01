@@ -56,6 +56,12 @@ p{margin:0 0 14px;}
   align-items: center;
   justify-content: space-between; /* name left, nav right */
 }
+.site-header {
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .brand{
   font-weight: 600;
