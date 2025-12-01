@@ -1437,3 +1437,11 @@ h1 {
     margin: 0 auto;
   }
 }
+.site-logo-text {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #111;
+  text-decoration: none;
+}
