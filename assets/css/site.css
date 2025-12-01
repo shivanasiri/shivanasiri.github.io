@@ -7,18 +7,6 @@ body {
 h1, h2, h3 {
   font-weight: 500;
 }
-/* Header name styling */
-.site-logo-text {
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-weight: 600;
-  font-size: 26px;
-  letter-spacing: 0.5px;
-  color: #111;
-  text-decoration: none;
-  padding: 10px 0;
-  display: inline-block;
-}
-
 .site-logo-text:hover {
   opacity: 0.7;
 }
@@ -32,6 +20,51 @@ p, li {
   --gap:28px; --gutter:36px;
   --font:"Inter",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
+/* Header layout */
+.site-header {
+  padding: 30px 60px;
+  display: flex;
+  justify-content: center; /* keeps logo + nav centered as a group */
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.site-header .inner {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Typed name logo */
+.site-logo-text {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #111;
+  text-decoration: none;
+}
+
+.site-logo-text:hover {
+  opacity: 0.7;
+}
+
+/* Nav links next to your name */
+.nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.nav a:hover {
+  opacity: 0.6;
+}
+
 *{box-sizing:border-box;}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.6;}
 a{color:inherit;text-decoration:none;border-bottom:1px solid #ccc;}
